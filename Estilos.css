@@ -1,0 +1,88 @@
+body  {
+     font-family: Arial helvetica , sans-serif;
+     margin: 0;
+     background: url(fondo-formas-hexagono-abstracto-degradado_23-2149120168.webp);
+     background-size: cover;
+     background-attachment: fixed;
+     
+    }
+    
+    *{
+        box-sizing: border-box;
+    }
+    .contenedor {
+        width: 100%;
+        padding: 5px;
+
+    }
+    .formulario{background: url(2.webp);
+        margin-top: 150px;
+        padding: 10px;
+        opacity: 80%;
+        
+
+    }
+    h1{
+        text-align: center;
+        color: rgb(7, 7, 7);
+        font-size: 40px;
+    }
+    input[type="text"],
+    input[type="password"]{
+        background: rgb(250, 248, 248);
+        font-size: 20px;
+        width: 80%;
+        padding: 10px;
+        border: none;
+    }
+    .inputContenedor{
+        background: rgb(230, 228, 228);
+        margin-bottom: 15px;
+        border: 1px solid #aaa;
+
+    }
+    .icon{
+        min-width: 50px;
+        text-align: center;
+        color: #aaa;
+    }
+    .button{
+        
+        border: none;
+        width: 100%;
+        color: white;
+        font-size: 23px;
+        background: rgb(12, 8, 253);
+        padding: 15px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .button:hover{
+        background: cadetblue;
+        
+    }
+    .p1{
+       text-align: center; 
+       font-size: 17px;
+       color:rgb(5, 5, 5);
+    }
+    .p2{
+        text-align: center;
+        font-size: 15px;
+        margin-top: 30px;
+        color:rgb(8, 8, 8);
+    }
+    @media(min-width:768px)
+    {
+        .formulario{
+            margin: 450px;
+            width: 450px;
+            margin-top: 22px;
+            border-radius: 10px;
+            
+            
+        }
+    }
+
+      
+ 
