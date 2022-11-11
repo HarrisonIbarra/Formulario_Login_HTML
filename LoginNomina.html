@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <link rel="stylesheet" href="Estilos.css">
+   
+</head>
+<body>
+    <form class="formulario">
+        <h1>Registrarse</h1>
+        <div class="contenedor">
+            <div class="inputContenedor">
+                <i class="fas fa-user icon"></i>
+                <input type="text" placeholder="Nombre Completo" minlength="3" maxlength="40" required pattern="[A-Za-z]+" required/>
+
+            </div>
+            <div class="inputContenedor">
+                <i class="fa fa-id-card icon"></i>
+                <input type="text" placeholder="Documento" minlength="3" maxlength="20" required pattern="[0-9]+" required/>
+
+            </div>
+            <div class="inputContenedor">
+                <i class="fa fa-envelope icon"></i>
+                <input type="text" placeholder="Correo Electronico" minlength="8" maxlength="50" required pattern="[A-Za-z0-9]+" required/>
+
+            </div>
+            <div class="inputContenedor">
+                <i class="fas fa-key icon"></i>
+                <input type="password" placeholder="Contraseña" minlength="8" maxlength="20" required/>
+
+            </div>
+            <div class="inputContenedor">
+                <i class="fas fa-key icon"></i>
+                <input type="password" placeholder="Confirmar Contraseña" minlength="8" maxlength="20" required/>
+
+            </div>
+            
+            <input type="submit" value="Crear Cuenta" class="button">
+            <p class="p1">Al registrarte, aceptas nuestras Condiciones de uso y Politica de privacidad</p> 
+            <p class="p2">¿Ya tienes cuenta? Iniciar Sesión</p>
+            
+        </div>
+       
+    </form>
+    
+</body>
+</html>
